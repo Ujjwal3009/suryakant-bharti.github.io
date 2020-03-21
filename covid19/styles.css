@@ -1,0 +1,61 @@
+<style>
+
+	body {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-weight: 800;
+	}
+
+	h1 {
+		color: white;
+		background-color: DodgerBlue;
+		padding: 8px;
+		text-align: center;
+	}
+
+	iframe {
+		width:100%; 
+		height:500px;
+	}
+
+    table[id="breakdown"] {
+	}
+
+	table[id="breakdown-usa"] {
+	}
+
+	table[id="breakdown-china"] {
+	}
+
+	table[id="totalcasesdatatable"] {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+		font-size: 24px;
+		text-align: center;
+	}
+
+	table[id="totalcasesdatatable"] td,
+	table[id="totalcasesdatatable"] th {
+		border: 1px solid #ddd;
+		padding: 8px;
+		text-align: center;
+	}
+
+	table[id="totalcasesdatatable"] tr:nth-child(even) {
+		background-color: #f2f2f2;
+	}
+
+	table[id="totalcasesdatatable"] tr:hover {
+		background-color: #ddd;
+	}
+
+	table[id="totalcasesdatatable"] th {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		background-color: #4CAF50;
+		color: white;
+	}
+
+
+
+	</style>

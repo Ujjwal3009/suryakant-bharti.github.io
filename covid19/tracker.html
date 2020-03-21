@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script 
+	async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_MEASUREMENT_ID">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'YOUR_GA_MEASUREMENT_ID');
+	</script>
+    
+
+
+
+    <!-- Responsive Design (required meta tags) -->
+    <meta charset="utf-8">
+    <meta name="viewport" 
+    content="width=device-width, 
+    	     initial-scale=1, 
+    	     shrink-to-fit=no">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link 
+    rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+
+
+
+    <!-- Styling CSS -->
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+
+
+
+
+
+<br>
+    <title>CoronaVirus (COVID-19) Live Statistics (Tracker)</title>
+  </head>
+  <body>
+ 
+
+
+ <!-- Google Ads -->
+<script 
+async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+</script>
+<ins class="adsbygoogle"
+style="display: inline-block; width: 728px; height: 90px"
+data-ad-client="YOUR_CLIENT_ID"
+data-ad-slot="YOUR_SLOT_ID"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  
+  
+  
+
+
+
+<!–– All the User Interface -->
+
+<div class="container">
+
+   <h1>CoronaVirus (COVID-19) Live Statistics (Tracker)</h1>
+
+   <h6 align="middle">Data updated on real-time <span id="updated"></span></h6>
+
+
+
+
+
+
+   <!-- Google Instant Translator -->
+   <div id="google_translate_element"></div>
+   <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 
+        	'google_translate_element');
+      }
+   </script>
+   <script type="text/javascript" 
+   src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+
+
+   <br><br>
+   <table id="totalcasesdatatable">
+      <tr>
+         <th scope="col">CONFIRMED CASES</th>
+         <th scope="col">REPORTED DEATHS</th>
+         <th scope="col">HEALTHY (RECOVERED)</th>
+      </tr>
+   </table>
+   <br><br>
+   <h2 align="bottom">ALL COUNTRIES STATISTICS BY CASES:</h2>
+   <iframe src="https://datawrapper.dwcdn.net/Xq7li/2/">
+      <p>Your browser does not support iframes.</p>
+   </iframe>
+   <br>
+   <table id="breakdown" class="table table-striped table-bordered table-sm">
+      <thead class="thead-dark">
+         <tr>
+            <th scope="col">Country</th>
+            <th scope="col">Cases</th>
+            <th scope="col">Deaths</th>
+            <th scope="col">Healthy (Recovered)</th>
+            <th scope="col">Active</th>
+            <th scope="col">Updated</th>
+         </tr>
+      </thead>
+      <tbody>
+      </tbody>
+   </table>
+   <br><br>
+   <img border="0" alt="CoronaVirus (COVID-19) Statistics Tracker" 
+      src="https://www.worldometers.info/img/flags/small/tn_us-flag.gif" 
+      align="left" width="80" height="42"/>
+   <h2 align="bottom">'  DETAILS OF USA STATES:</h2>
+   <iframe src="https://datawrapper.dwcdn.net/MhAYA/6/">
+      <p>Your browser does not support iframes.</p>
+   </iframe>
+   <br>
+   <table id="breakdown-usa" class="table table-striped table-bordered table-sm">
+      <thead class="thead-dark">
+         <tr>
+            <th scope="col">States</th>
+            <th scope="col">Cases</th>
+            <th scope="col">Deaths</th>
+            <th scope="col">Healthy (Recovered)</th>
+            <th scope="col">Updated</th>
+         </tr>
+      </thead>
+      <tbody>
+      </tbody>
+   </table>
+   <br><br>
+   <img border="0" alt="CoronaVirus (COVID-19) Statistics Tracker" 
+      src="https://www.worldometers.info/img/flags/small/tn_ch-flag.gif" 
+      align="left" width="80" height="42"/>
+   <h2 align="bottom">'  DETAILS OF CHINA PROVINCES:</h2>
+   <table id="breakdown-china" class="table table-striped table-bordered table-sm">
+      <thead class="thead-dark">
+         <tr>
+            <th scope="col">Province</th>
+            <th scope="col">Cases</th>
+            <th scope="col">Deaths</th>
+            <th scope="col">Healthy (Recovered)</th>
+            <th scope="col">Updated</th>
+         </tr>
+      </thead>
+      <tbody>
+      </tbody>
+   </table>
+   <br><br>
+   <h2>CHINA vs OTHERS CASES:</h2>
+   <table id="quickview" class="table table-striped table-bordered table-sm">
+      <thead class="thead-dark">
+         <tr>
+            <th scope="col">Date</th>
+            <th scope="col">China</th>
+            <th scope="col">Outside</th>
+            <th scope="col">Total</th>
+            <th scope="col">Difference</th>
+         </tr>
+      </thead>
+      <tbody>
+      </tbody>
+   </table>
+   <br><br>
+</div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+
+
+    <script type="text/javascript" src="apicalls.js"></script>
+
+  </body>
+</html>
